@@ -7,7 +7,8 @@ platforms = ["osx-arm64", "osx-64", "linux-64"]
 
 [tasks]
 download-snli = "python utils/download_snli.py"
-lab = "jupyter lab"
+lab = { cmd = "jupyter lab", env = { JUPYTER_PATH = ".pixi/envs/default/share/jupyter" } }
+install-kernel = "python -m ipykernel install --user --name entailment-lab --display-name \"Python (entailment-lab)\""
 
 [dependencies]
 python = ">=3.11,<3.13"

@@ -118,6 +118,22 @@ entailment-lab compare \
 
 This repository is currently in bootstrap phase.
 
+### Pixi + Notebook
+
+Install the environment and start Jupyter from Pixi:
+
+```bash
+pixi run lab
+```
+
+If you are opening the notebook from an editor such as VS Code and do not see the project environment in the kernel picker, register the Pixi interpreter as a named kernel:
+
+```bash
+pixi run install-kernel
+```
+
+After that, select `Python (entailment-lab)` as the notebook kernel.
+
 Immediate next steps:
 
 1. scaffold the Python package (`src/entailment_lab`)
