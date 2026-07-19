@@ -48,3 +48,6 @@ data/raw/
 
 # Results / generated outputs
 results/
+
+# env files
+.env
