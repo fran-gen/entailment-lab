@@ -48,3 +48,9 @@ data/raw/
 
 # Results / generated outputs
 results/
+
+# env files
+.env
+
+# data files
+data/
