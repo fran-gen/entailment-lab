@@ -51,3 +51,6 @@ results/
 
 # env files
 .env
+
+# data files
+data/
